@@ -15,7 +15,7 @@
 
 * `go mod init`
 * `go mod tidy`
-* `go build`
+* `go build -o app`
 * `go install`
 * `go run main.go`
 
@@ -23,6 +23,7 @@
 ## Basic docker Commands
 
 * `docker images`
+* `docker run -p 8080:8080 --rm -v host:container <image> <command>`
 * `docker ps`
 * `docker cp`
 * `docker inspect`
